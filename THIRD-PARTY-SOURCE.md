@@ -1,6 +1,6 @@
-# FFmpeg sources for Performance Onerom v3.0.10, Windows x64
+# FFmpeg sources for Performance Onerom v3.0.14, Windows x64
 
-Download the [third-party source kit](https://github.com/RapidFire-001/onerom-v3/releases/download/third-party-electron-44.9.0/FFmpeg-Electron-44.9.0-third-party-sources.zip). Relative filenames in this document refer to that kit.
+Download the [third-party source kit](https://github.com/RapidFire-001/onerom-v3/releases/download/v3.0.14/FFmpeg-Electron-44.9.0-third-party-sources.zip). Relative filenames in this document refer to that kit.
 
 These are upstream third-party library sources and build records. They contain no private Performance Onerom application source, firmware unlock keys, user ROMs or private development history.
 
@@ -30,7 +30,7 @@ Use Electron's included `docs/development/build-instructions-gn.md` and Windows 
 The normal one-file launcher extracts a temporary runtime and removes it after exit. For library modification, create a persistent local runtime from your downloaded EXE. This PowerShell example reads its appended ZIP payload into a separate folder. It does not connect to hardware or need private application source. Set `$download` to your downloaded file and `$destination` to a new writable folder that does not already exist.
 
 ```powershell
-$download = 'C:\Downloads\Performance-Onerom-v3-Rapid-Fire-3.0.10.exe'
+$download = 'C:\Downloads\Performance-Onerom-v3-Rapid-Fire-3.0.14.exe'
 $destination = 'C:\Downloads\OneROM-library-test'
 if (Test-Path -LiteralPath $destination) { throw 'Choose a new destination folder.' }
 $allBytes = [IO.File]::ReadAllBytes($download)

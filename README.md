@@ -6,7 +6,7 @@ This repository is for downloads and documentation. It does not contain the appl
 
 ## Download and use
 
-> **Microsoft Edge download notice:** Edge may show a warning or block a download from this repository. If the page or download is unavailable in Edge, you can also open the official GitHub page in Firefox or Chrome. If your browser or antivirus flags a file as malware, please report the exact warning and the file name or release version so I can investigate.
+> **Microsoft Edge download notice.** SmartScreen may warn that a file isn’t commonly downloaded when it has limited download history. In our test of the OneROM v3.0.14 executable, Edge displayed “isn’t commonly downloaded” and showed no malware detection name. If Edge or your antivirus shows a malware warning, please send the exact message and the file name or release version so I can investigate. If the GitHub page is unavailable in Edge, you can also view it in Firefox or Chrome. See [Microsoft’s SmartScreen guidance](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).
 
 Download the single Windows x64 `.exe` attached to the [latest application release](https://github.com/RapidFire-001/onerom-v3/releases/tag/v3.0.14). Run it to use the application; no separately downloaded firmware, plugin pack or companion application folder is required. The app works offline. It unpacks its bundled runtime locally while running and attempts cleanup after normal exit.
 

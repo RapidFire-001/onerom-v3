@@ -4,6 +4,10 @@ Download the [third-party source kit](https://github.com/RapidFire-001/onerom-v3
 
 These are upstream third-party library sources and build records. They contain no private Performance Onerom application source, firmware unlock keys, user ROMs or private development history.
 
+**Copyright © 2026 Rapidfire for application-specific additions to Performance Onerom.** Third-party components retain their respective copyrights and licences.
+
+Recipients retain the permissions in LGPL 2.1 Section 6, including modification for their own use and reverse engineering of the combined work to debug those modifications. In this guide, the steps cover replacing the FFmpeg library and testing the replacement. [LGPL 2.1, Section 6](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html#SEC6)
+
 ## Exact binary and source provenance
 
 The distributed ffmpeg.dll has SHA-256 `96094bc6b5082e6372a9aa21970fcecfc069abd68caf4b48673b84dc3e8cf99b`. It is byte-identical to ffmpeg.dll in the official `electron-v44.9.0-win32-x64.zip`, whose SHA-256 is `88e08039d0ef359bab9f674e8051fa103bd8628ea7c5a5e1daaa610a8a0c6931`. That ZIP was verified against Electron's published SHASUMS256.txt. The separately published Electron ffmpeg ZIP is a different build and is not asserted to be this binary.
@@ -47,7 +51,7 @@ try {
 }
 ```
 
-Close all instances of the test runtime before replacing its DLL. Retain a copy of the original library. Start the inner executable directly; running the one-file outer EXE again creates a fresh runtime containing the original library. You may modify the library for your own use and reverse engineer the combined work for debugging those modifications as permitted by LGPL 2.1 section 6. No application distribution term overrides these rights. A different official interface-compatible Electron FFmpeg DLL was substituted locally and the app opened successfully; this is a startup check, not proof that every possible custom library will work.
+Close all instances of the test runtime before replacing its DLL. Retain a copy of the original library. Start the inner executable directly; running the one-file outer EXE again creates a fresh runtime containing the original library. A different official interface-compatible Electron FFmpeg DLL was substituted locally and the app opened successfully; this is a startup check, not proof that every possible custom library will work.
 
 ## Upstream locations
 

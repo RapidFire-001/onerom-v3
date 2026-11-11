@@ -2,7 +2,11 @@
 
 Performance OneROM v3 by Rapid Fire is an offline Windows desktop application for One ROM Fire 28A, 28B, 28C, 32A, and 32B boards.
 
-Created by **Rapid Fire**. Windows desktop application distributed through **RapidFire-001**.
+**Created by Rapid Fire.**
+
+**Copyright © 2026 Rapid Fire** for the application-specific additions to Performance OneROM v3. Upstream and third-party components retain their respective copyrights and licences.
+
+Windows desktop application distributed through **RapidFire-001**.
 
 This repository is for downloads and documentation. It does not contain the application's private development repository or build history.
 

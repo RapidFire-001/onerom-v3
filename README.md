@@ -16,6 +16,8 @@ This repository is for downloads and documentation. It does not contain the appl
 
 The app fills in the Fire model and PCB revision when it recognizes the connected board. Choose your ROM image and firmware mode, then confirm the suggested ROM type before building.
 
+If a Fire board reports the wrong revision or stops responding after a flash, see **Recover from wrong firmware** on [page 9 of the booklet](Performance-OneROM-v3-Fire-Board-Booklet.pdf). It covers the One ROM Web reflash, BOOTSEL recovery, and what to check before accepting a board mismatch warning.
+
 ## Download and use
 
 > **Microsoft Edge download notice.** SmartScreen may warn that a file isn’t commonly downloaded when it has limited download history. In our test of the OneROM v3.0.14 executable, Edge displayed “isn’t commonly downloaded” and showed no malware detection name. If Edge or your antivirus shows a malware warning, please send the exact message and the file name or release version so I can investigate. If the GitHub page is unavailable in Edge, you can also view it in Firefox or Chrome. See [Microsoft’s SmartScreen guidance](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).

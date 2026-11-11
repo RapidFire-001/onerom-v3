@@ -22,9 +22,11 @@ The app can build firmware, save encrypted `.orfw` files, reopen compatible save
 
 ## Rapid Fire firmware work
 
-Rapid Fire completed and integrated the v0.8.0 system plugin builds for the **Fire 28A, 28B, 28C, 32A and 32B**. The release includes seven plugin variants for each Fire board family, covering standard emulation, UART disabled, ALDL 808 with four signal polarity settings, and HTS/Ostrich Z.
+Rapid Fire completed and integrated the v0.8.0 system plugin builds for **Fire 28A, 28B, 28C, 32A and 32B**. Each Fire board family ships seven variants covering standard emulation, UART disabled, four ALDL 808 polarity settings, and HTS/Ostrich Z.
 
-The firmware work covered emulator communication, ROM uploads and verification, and data tracing. Rapid Fire extended UART support to Fire 28B and improved trace filtering, triggers and reporting across the supported Fire families. The latest release also corrects ROM addressing for smaller chips in six Fire 28 plugin variants, fixing a failure that could prevent TunerPro from verifying an upload.
+- **Data tracing.** Completed address filtering, suppression of repeated hits, start and end triggers, and relative address reporting. Added continuous and packet-based reporting with packet limits and stop controls. Trace replies now resume when USB can accept more data.
+- **Fire 28B UART.** Added serial support using the Fire 28B pin mapping. Compiled plugin tests exercised UART setup, ROM reads and writes, and trace replies in standard and Ostrich Z modes.
+- **Fire 28 ROM uploads.** Fixed address handling for smaller ROM chips in six plugin variants. The bug could cause blank reads and uploads that reported success without writing the data, leading to TunerPro verification failures.
 
 ## Current release: v3.0.14
 

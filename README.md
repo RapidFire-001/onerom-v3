@@ -36,6 +36,13 @@ Rapid Fire completed and integrated the v0.8.0 system plugin builds for **Fire 2
 - **Fire 28B UART.** Added serial support using the Fire 28B pin mapping. Compiled plugin tests exercised UART setup, ROM reads and writes, and trace replies in standard and Ostrich Z modes.
 - **Fire 28 ROM uploads.** Fixed address handling for smaller ROM chips in six plugin variants. The bug could cause blank reads and uploads that reported success without writing the data, leading to TunerPro verification failures.
 
+### Honda tuning setups
+
+Choose the mode under **System firmware ROM** that matches your Honda tuning software's emulator protocol. Both modes use a 38,400 baud UART bridge.
+
+- **NORMAL DT** works with Honda setups that use the standard Ostrich emulation protocol.
+- **OSTRICH Z DT** is for Honda setups that use the Ostrich Z emulation protocol and supports Honda Tuning Suite (HTS) UART datalogging.
+
 ## Current release: v3.0.14
 
 This full release removes the beta badge and corrects standard emulator address-window handling for smaller ROM chips. The prior plugin could return blank data or acknowledge an upload without writing it, causing TunerPro verification to fail. Build new firmware from your original BIN to include the correction; old saved `.orfw` files retain their embedded plugin.

@@ -20,6 +20,12 @@ The app supports One ROM Fire 28A, 28B, 28C, 32A and 32B with the supplied v0.8.
 
 The app can build firmware, save encrypted `.orfw` files, reopen compatible saved files, inspect a USB-connected board, program it and verify flash readback. A ROM/calibration file is not bundled for use in an ECU.
 
+## Rapid Fire firmware work
+
+Rapid Fire completed and integrated the v0.8.0 system plugin builds for the **Fire 28A, 28B, 28C, 32A and 32B**. The release includes seven plugin variants for each Fire board family, covering standard emulation, UART disabled, ALDL 808 with four signal polarity settings, and HTS/Ostrich Z.
+
+The firmware work covered emulator communication, ROM uploads and verification, and data tracing. Rapid Fire extended UART support to Fire 28B and improved trace filtering, triggers and reporting across the supported Fire families. The latest release also corrects ROM addressing for smaller chips in six Fire 28 plugin variants, fixing a failure that could prevent TunerPro from verifying an upload.
+
 ## Current release: v3.0.14
 
 This full release removes the beta badge and corrects standard emulator address-window handling for smaller ROM chips. The prior plugin could return blank data or acknowledge an upload without writing it, causing TunerPro verification to fail. Build new firmware from your original BIN to include the correction; old saved `.orfw` files retain their embedded plugin.

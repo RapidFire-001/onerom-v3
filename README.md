@@ -12,7 +12,7 @@ This repository is for downloads and documentation. It does not contain the appl
 
 ## Illustrated Fire board booklet
 
-[Open the Fire board booklet](docs/Performance-OneROM-v3-Fire-Board-Booklet.pdf) for illustrated setup, programming and verification steps, plus a guide to all seven firmware modes, data tracing (DT), and TX/RX inversion.
+[Open the Fire board booklet](Performance-OneROM-v3-Fire-Board-Booklet.pdf) for illustrated setup, programming and verification steps, plus a guide to all seven firmware modes, data tracing (DT), and TX/RX inversion.
 
 The app fills in the Fire model and PCB revision when it recognizes the connected board. Choose your ROM image and firmware mode, then confirm the suggested ROM type before building.
 

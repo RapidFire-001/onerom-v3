@@ -10,6 +10,12 @@ Windows desktop application distributed through **RapidFire-001**.
 
 This repository is for downloads and documentation. It does not contain the application's private development repository or build history.
 
+## Illustrated Fire board booklet
+
+[Open the Fire board booklet](docs/Performance-OneROM-v3-Fire-Board-Booklet.pdf) for illustrated setup, programming and verification steps, plus a guide to all seven firmware modes, data tracing (DT), and TX/RX inversion.
+
+The app fills in the Fire model and PCB revision when it recognizes the connected board. Choose your ROM image and firmware mode, then confirm the suggested ROM type before building.
+
 ## Download and use
 
 > **Microsoft Edge download notice.** SmartScreen may warn that a file isn’t commonly downloaded when it has limited download history. In our test of the OneROM v3.0.14 executable, Edge displayed “isn’t commonly downloaded” and showed no malware detection name. If Edge or your antivirus shows a malware warning, please send the exact message and the file name or release version so I can investigate. If the GitHub page is unavailable in Edge, you can also view it in Firefox or Chrome. See [Microsoft’s SmartScreen guidance](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).

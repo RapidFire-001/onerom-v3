@@ -16,4 +16,4 @@ The executable embeds a complete offline notice reader under **About & licenses*
 
 One ROM hardware design files have a separate CERN-OHL-W-2.0 licence and are not distributed with this desktop application. This project makes no claim to be the originator of upstream One ROM v0.8.0.
 
-Recipients may modify the LGPL library for their own use and reverse engineer the combined work for debugging those modifications as permitted by LGPL 2.1 section 6. No application term restricts those rights. The application uses the library as a separate DLL; the optional third-party source materials include instructions for running a writable runtime with an interface-compatible replacement.
+Recipients retain the permissions in LGPL 2.1 Section 6, including modification for their own use and reverse engineering of the combined work to debug those modifications. The FFmpeg guide covers replacing the FFmpeg DLL and testing that replacement in a writable runtime. [LGPL 2.1, Section 6](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html#SEC6)

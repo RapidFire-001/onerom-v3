@@ -35,3 +35,7 @@ Encrypted saves use automatic unlocking in compatible app versions. They are por
 The published download is a single executable. GitHub may label automatically generated documentation-only repository archives as “Source code”; those archives do not contain private application source or build history.
 
 This software uses libraries from the FFmpeg project under LGPL 2.1 or later. Its [matching third-party source materials](https://github.com/RapidFire-001/onerom-v3/releases/download/v3.0.14/FFmpeg-Electron-44.9.0-third-party-sources.zip) are available separately, with [build and library replacement instructions](THIRD-PARTY-SOURCE.md). No application source licence is granted by the upstream library licences.
+
+## Support
+
+For help with this software, email [Rapid Fire Software Support](mailto:support@rapidfiresoftware.net). Include the software version, what you were trying to do, and any error message you saw.
